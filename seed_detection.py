@@ -14,7 +14,7 @@ os.getcwd()
 # In[448]:
 
 
-# Extract color and other norphological traits from seed images
+# Extract color and other morphological traits from seed images
 def Process_wheat_seeds_images(Input_folder, Input_format, working_dir):
     
 
