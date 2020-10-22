@@ -1,6 +1,10 @@
 #!/usr/bin/env python
 # coding: utf-8
 
+#' @author - Emmanuel Adeyemo
+
+#' @date - 10/09/2020
+
 # In[373]:
 
 
@@ -30,8 +34,8 @@ def Process_wheat_seeds_images(Input_folder, Input_format, working_dir):
        
     os.chdir(working_dir)
     # Make output directory is it does not already exist
-    if not os.path.exists("WheatSeeds_Out"):
-        os.mkdir("WheatSeeds_Out")
+    if not os.path.exists("WheatSeeds_Out"):  # You can customize output dirctory here
+        os.mkdir("WheatSeeds_Out")            # Output folder name should be as above
         
         
     # inner function 
