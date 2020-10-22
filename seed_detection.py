@@ -254,19 +254,15 @@ def Process_wheat_seeds_images(Input_folder, Input_format, working_dir):
 # In[449]:
 
 
-working_dir = 'C:\\Users\\eadey\\OneDrive\\Desktop\\UMN\\Thesis PhD\\Image Analysis\\Session 1 F5 Scab pics\\seed_ML\\checks'
-Input_folder = os.path.join(working_dir, "test")
-Input_format = '.tif'
+# working_dir = 'C:\\Users\\eadey\\OneDrive\\Desktop\\UMN\\Thesis PhD\\Image Analysis\\Session 1 F5 Scab pics\\seed_ML\\checks'
+# Input_folder = os.path.join(working_dir, "test")
+# Input_format = '.tif'
 
 
-# In[450]:
+# # In[450]:
 
 
-Process_wheat_seeds_images(Input_folder, Input_format, working_dir)
-
-
-# In[ ]:
-
+# Process_wheat_seeds_images(Input_folder, Input_format, working_dir)
 
 
 
@@ -274,38 +270,38 @@ Process_wheat_seeds_images(Input_folder, Input_format, working_dir)
 # In[422]:
 
 
-img = cv2.imread('C:\\Users\\eadey\\OneDrive\\Desktop\\UMN\\Thesis PhD\\Image Analysis\\Session 1 F5 Scab pics\\seed_ML\\checks\\test\\0_1.tif')
+# img = cv2.imread('C:\\Users\\eadey\\OneDrive\\Desktop\\UMN\\Thesis PhD\\Image Analysis\\Session 1 F5 Scab pics\\seed_ML\\checks\\test\\0_1.tif')
 
 
 # In[442]:
 
 
-y = 280  # cuts out left vertical
-x =100 # cuts out up horizontal
-h = 4000  # cuts out right vertical
-w = 2700 # cuts out bottom horizontal
+# y = 280  # cuts out left vertical
+# x =100 # cuts out up horizontal
+# h = 4000  # cuts out right vertical
+# w = 2700 # cuts out bottom horizontal
 
-#img2 = img[y:y+h, x:x+w]
+# #img2 = img[y:y+h, x:x+w]
 
-img2 = img[x:w, y:h]
+# img2 = img[x:w, y:h]
 
 
 # In[443]:
 
 
-imS = cv2.resize(img2, (1000, 700)) 
-cv2.imshow('Final Result', imS)
-cv2.waitKey(0) 
+# imS = cv2.resize(img2, (1000, 700)) 
+# cv2.imshow('Final Result', imS)
+# cv2.waitKey(0) 
 
 
-# In[381]:
+# # In[381]:
 
 
-imgplot = plt.imshow(img)
-plt.show()
+# imgplot = plt.imshow(img)
+# plt.show()
 
 
-# In[ ]:
+# # In[ ]:
 
 
 
